@@ -1,0 +1,25 @@
+BLOOD BANK MANAGEMENT SYSTEM
+
+Blood_Bank(bb_id, bb_name, bb_street , bb_building_no, bb_locality)
+ 
+Blood_Patient(bu_id, patient_id, blood_group)
+ 
+Blood_Units(bu_id, blood_group, bb_id)
+ 
+Donor (d_id, d_name, d_surname, d_gender, blood_group, contact_no, d_street, d_house_number, d_locality, d_age, d_disease, id_blood, bloodGroup_Blood, id_rt, date_register)
+ 
+Hospital(hospital_id, h_name, h_street, h_building_no, h_locality)
+ 
+hospital_Request (request_id, hospital_id)
+ 
+Patient (patient_id, patient_name, patient_surname, gender, blood_group, contact, street, house_number, locality, rt_id, date_registration)
+ 
+Patient_Request (patient_id, request_id)
+ 
+Registration_Team (rt_member_id, rt_member_name, rt_member_surname, bb_id)
+ 
+Requests (request_id, blood_group, units_of_blood)
+ 
+Technical_Analyst (ta_id, ta_name, ta_surname, bb_id)
+ 
+Technical_Analyst_Blood (ta_id, bu_id, blood_group)
